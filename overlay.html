@@ -55,7 +55,7 @@
   <script>
     async function fetchBunkerData() {
       try {
-        const response = await fetch('https://raw.githubusercontent.com/Timsky222/bunker-overlay/refs/heads/main/bunker.json');
+        const response = await fetch('https://raw.githubusercontent.com/Timsky222/bunker-overlay/bunker.json');
         const data = await response.json();
         updateOverlay(data);
       } catch (error) {
