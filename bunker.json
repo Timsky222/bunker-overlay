@@ -1,0 +1,24 @@
+{
+  "bunker": {
+    "catastrophe": "Ядерная война",
+    "slots": 4
+  },
+  "players": [
+    {
+      "id": 1,
+      "webcam_position": "top-left",
+      "gender": "Мужчина",
+      "age": 30,
+      "build": "Среднее",
+      "trait": "Харизматичный",
+      "profession": "Инженер",
+      "health": "Здоров",
+      "hobbies": ["Чтение", "Рыбалка"],
+      "phobias": ["Высота"],
+      "inventory": ["Фонарик", "Нож"],
+      "backpack": ["Вода", "Консервы"],
+      "additional": "Знает основы выживания"
+    },
+    // ... остальные 7 игроков
+  ]
+}
