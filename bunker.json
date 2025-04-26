@@ -2,6 +2,7 @@
   "bunker": {
     "catastrophe": "Ядерная война",
     "slots": 4
+    "время в бункре": "1 год 6 месяцев"
   },
   "players": [
     {
@@ -19,6 +20,126 @@
       "backpack": ["Вода", "Консервы"],
       "additional": "Знает основы выживания"
     },
-    // ... остальные 7 игроков
+    {
+      "id": 2,
+      "webcam_position": "top-second",
+      "gender": "Женщина",
+      "age": 25,
+      "build": "Худощавое",
+      "trait": "Находчивая",
+      "profession": "Медик",
+      "health": "Здоров",
+      "hobbies": ["Йога", "Кулинария"],
+      "phobias": ["Пауки"],
+      "inventory": ["Аптечка"],
+      "backpack": ["Бинты", "Лекарства"],
+      "additional": "Спокойна в кризисах"
+    },
+    {
+      "id": 3,
+      "webcam_position": "top-second",
+      "gender": "Женщина",
+      "age": 25,
+      "build": "Худощавое",
+      "trait": "Находчивая",
+      "profession": "Медик",
+      "health": "Здоров",
+      "hobbies": ["Йога", "Кулинария"],
+      "phobias": ["Пауки"],
+      "inventory": ["Аптечка"],
+      "backpack": ["Бинты", "Лекарства"],
+      "additional": "Спокойна в кризисах"
+    },
+    {
+      "id": 4,
+      "webcam_position": "top-second",
+      "gender": "Женщина",
+      "age": 25,
+      "build": "Худощавое",
+      "trait": "Находчивая",
+      "profession": "Медик",
+      "health": "Здоров",
+      "hobbies": ["Йога", "Кулинария"],
+      "phobias": ["Пауки"],
+      "inventory": ["Аптечка"],
+      "backpack": ["Бинты", "Лекарства"],
+      "additional": "Спокойна в кризисах"
+    },
+    {
+      "id": 5,
+      "webcam_position": "top-second",
+      "gender": "Женщина",
+      "age": 25,
+      "build": "Худощавое",
+      "trait": "Находчивая",
+      "profession": "Медик",
+      "health": "Здоров",
+      "hobbies": ["Йога", "Кулинария"],
+      "phobias": ["Пауки"],
+      "inventory": ["Аптечка"],
+      "backpack": ["Бинты", "Лекарства"],
+      "additional": "Спокойна в кризисах"
+    },
+    {
+      "id": 6,
+      "webcam_position": "top-second",
+      "gender": "Женщина",
+      "age": 25,
+      "build": "Худощавое",
+      "trait": "Находчивая",
+      "profession": "Медик",
+      "health": "Здоров",
+      "hobbies": ["Йога", "Кулинария"],
+      "phobias": ["Пауки"],
+      "inventory": ["Аптечка"],
+      "backpack": ["Бинты", "Лекарства"],
+      "additional": "Спокойна в кризисах"
+    },
+    {
+      "id": 6,
+      "webcam_position": "top-second",
+      "gender": "Женщина",
+      "age": 25,
+      "build": "Худощавое",
+      "trait": "Находчивая",
+      "profession": "Медик",
+      "health": "Здоров",
+      "hobbies": ["Йога", "Кулинария"],
+      "phobias": ["Пауки"],
+      "inventory": ["Аптечка"],
+      "backpack": ["Бинты", "Лекарства"],
+      "additional": "Спокойна в кризисах"
+    },
+    {
+      "id": 7,
+      "webcam_position": "top-second",
+      "gender": "Женщина",
+      "age": 25,
+      "build": "Худощавое",
+      "trait": "Находчивая",
+      "profession": "Медик",
+      "health": "Здоров",
+      "hobbies": ["Йога", "Кулинария"],
+      "phobias": ["Пауки"],
+      "inventory": ["Аптечка"],
+      "backpack": ["Бинты", "Лекарства"],
+      "additional": "Спокойна в кризисах"
+    },
+    {
+      "id": 8,
+      "webcam_position": "top-second",
+      "gender": "Женщина",
+      "age": 25,
+      "build": "Худощавое",
+      "trait": "Находчивая",
+      "profession": "Медик",
+      "health": "Здоров",
+      "hobbies": ["Йога", "Кулинария"],
+      "phobias": ["Пауки"],
+      "inventory": ["Аптечка"],
+      "backpack": ["Бинты", "Лекарства"],
+      "additional": "Спокойна в кризисах"
+    }
+    // Добавь остальных игроков (до 8)
   ]
 }
