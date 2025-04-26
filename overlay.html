@@ -48,4 +48,60 @@
             width: 180px;
             min-height: 220px;
             border: 2px solid white;
-            background-color
+            background-color: #222;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<div class="catastrophe" id="catastrophe">Катастрофа</div>
+
+<div class="webcams">
+    <div class="webcam"></div>
+    <div class="webcam"></div>
+    <div class="webcam"></div>
+    <div class="webcam"></div>
+</div>
+
+<div class="character-cards" id="character-cards">
+    <!-- Карточки персонажей будут заполняться сюда -->
+</div>
+
+<script>
+async function loadBunkerData() {
+    try {
+        const response = await fetch('bunker.json');
+        const data = await response.json();
+
+        // Обновляем катастрофу
+        const catastropheDiv = document.getElementById('catastrophe');
+        catastropheDiv.textContent = data.catastrophe;
+
+        // Создаем карточки персонажей
+        const cardsContainer = document.getElementById('character-cards');
+        data.characters.forEach(character => {
+            const card = document.createElement('div');
+            card.classList.add('character-card');
+            card.innerHTML = `
+                <h3>${character.name}</h3>
+                <p>Возраст: ${character.age}</p>
+                <p>Пол: ${character.gender}</p>
+                <p>Профессия: ${character.profession}</p>
+                <p>Здоровье: ${character.health}</p>
+                <p>Хобби: ${character.hobby}</p>
+            `;
+            cardsContainer.appendChild(card);
+        });
+
+    } catch (error) {
+        console.error('Ошибка загрузки данных:', error);
+    }
+}
+
+loadBunkerData();
+</script>
+
+</body>
+</html>
